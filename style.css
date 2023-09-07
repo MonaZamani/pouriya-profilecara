@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Disply', sans-serif;
+}
+
+body{
+    background-color: rgba(42, 42, 42, 0.937);
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    box-shadow: 0 5px 20px rgb(153, 203, 221);
+  }
+  
+  .details > p {
+    font-size: .8em;
+    margin-top: .5em;
+  }
+  
+  .details > label {
+    font-weight: bold;
+  }
+  
+  .details {
+    box-shadow: 0 2px 15px rgba(86, 167, 170, 0.341);
+    width: 107%;
+    background-color: rgba(255, 255, 255, 0.808);
+    position: absolute;
+    bottom: 0;
+    height: 2em;
+    transition: all .5s ;
+    cursor: pointer;
+    padding: 0.6em;
+    overflow: hidden;
+    font-size:x-large;
+    text-align:right;
+   
+  }
+  .details p{
+    font-size:medium;
+  }
+  .details a{
+    color: #000;
+    font-size: xx-large;
+    margin-right:88%;
+    padding-top: 50%;
+    transition: .5s;
+  }
+  .details a:hover{
+    color: rgb(57, 101, 138);
+  }
+  .card:hover > .details {
+    margin-bottom: 0%;
+    height: 6em;
+  }
+  
+  
